@@ -1,0 +1,38 @@
+.currency-converter {
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+#amount {
+    margin-right: 10px;
+    line-height: 2;
+}
+.converted {
+    display: flex;
+}
+.currency {
+    margin-left: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: lightgray;
+    line-height: 2;
+    border: 1px solid lightgray;
+}
+.Name p {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.currency:not(:first-child) {
+    border-left: none;
+}
+.input-head{
+    height: 50%;
+}
+.input-head p{
+    margin: 0px;
+}
